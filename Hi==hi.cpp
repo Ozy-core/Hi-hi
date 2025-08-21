@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 bool strcmp(string str1, string str2)
 {
     bool equal;
@@ -20,5 +22,8 @@ bool strcmp(string str1, string str2)
 
 int main()
 {
+    bool a = strcmp("mymom","MyMom");
 
+    cout << a;
+    return 0;
 }
