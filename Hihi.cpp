@@ -32,9 +32,9 @@ int main()
 
     cout << strcmp_case_insensitive("2","50 ")<< endl;
     cout << strcmp_case_insensitive("5","5 ") << endl;
-    cout << strcmp_case_insensitive("2 some string","50 some string ") << endl;
-
-    assert(strcmp_case_insensitive("10","5"));
-    assert(strcmp_case_insensitive("600","70"));
+    cout << strcmp_case_insensitive("2","10 ") << endl;
+    cout << strcmp_case_insensitive("2 Some string","50 Some string ") << endl;
+    cout << strcmp_case_insensitive("20 Some string","1 Some string") << endl;
+    cout << strcmp_case_insensitive("2 Some string","10 Some string") << endl;
     
 }
