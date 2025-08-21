@@ -4,27 +4,28 @@ using namespace std;
 
 int strcmp_case_insensitive(string one, string two)
 {
-    int charOne= 0;
-    int charTwo= 0;
-    for (int i=0; i<one.length(); i++)
+    int equals=0;
+    for (int i=0; i< one.length(); i++)
     {
-        charOne+= static_cast<int>(one[i]);
-        charTwo+= static_cast<int>(two[i]);
-    }
-
-    if(charOne > charTwo)
-    {
-        return 1;
+        if (one[i]== two[i])
+        {
+            equals=0;
         }
-    else if(charOne < charTwo)
-    {
-        return -1;
+        else
+        {
+            int charOne= static_cast<int>(one[i]);
+            int charTwo= static_cast<int>(two[i]);
+            if(charOne < charTwo)
+            {
+                return -1;
+            }
+            else if (charOne > charTwo)
+            {
+                return 1;
+            }
+        }
     }
-    else if(charOne == charTwo)
-    {
-        return 0;
-    }
-    return -1;
+    return equals;
 }
 
 int main()
