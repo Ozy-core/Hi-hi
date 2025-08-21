@@ -17,11 +17,11 @@ int strcmp_case_insensitive(string one, string two)
             int charTwo= static_cast<int>(two[i]);
             if(charOne < charTwo)
             {
-                return -1;
+                equals= -1;
             }
             else if (charOne > charTwo)
             {
-                return 1;
+                equals= 1;
             }
         }
     }
