@@ -36,6 +36,6 @@ int main()
     cout << strcmp_case_insensitive("2","10 ") << endl;
     cout << strcmp_case_insensitive("2 Some string","50 Some string ") << endl;
     cout << strcmp_case_insensitive("20 Some string","1 Some string") << endl;
-    cout << strcmp_case_insensitive("2 Some string","10 Some string") << endl;
+    cout << strcmp_case_insensitive("my cool string","mycoolstring") << endl;
     
 }
