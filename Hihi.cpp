@@ -31,7 +31,7 @@ int main()
 {
 
     cout << strcmp_case_insensitive("2","50 ")<< endl;
-    cout << strcmp_case_insensitive("2","10 ") << endl;
+    cout << strcmp_case_insensitive("5","5 ") << endl;
     cout << strcmp_case_insensitive("2 some string","50 some string ") << endl;
 
     assert(strcmp_case_insensitive("10","5"));
