@@ -31,11 +31,11 @@ int strcmp_case_insensitive(string one, string two)
 int main()
 {
 
-    cout << strcmp_case_insensitive("2","50 ")<< endl;
-    cout << strcmp_case_insensitive("5","5 ") << endl;
-    cout << strcmp_case_insensitive("2","10 ") << endl;
-    cout << strcmp_case_insensitive("2 Some string","50 Some string ") << endl;
-    cout << strcmp_case_insensitive("20 Some string","1 Some string") << endl;
-    cout << strcmp_case_insensitive("my cool string","mycoolstring") << endl;
+    cout << strcmp_case_insensitive("hello","Hello ")<< endl;
+    cout << strcmp_case_insensitive("ojos tristes","lejos de ti") << endl;
+    cout << strcmp_case_insensitive("pepto","pepeto ") << endl;
+    cout << strcmp_case_insensitive("Sorry","Not Sorry") << endl;
+    cout << strcmp_case_insensitive("twIning","twining") << endl;
+    cout << strcmp_case_insensitive("so cooler","so cool") << endl;
     
 }
