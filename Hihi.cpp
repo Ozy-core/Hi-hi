@@ -7,7 +7,7 @@ int strcmp_case_insensitive(string one, string two)
     int equals=0;
     for (int i=0; i< one.length(); i++)
     {
-        if (one[i]== two[i])
+        if (tolower(one[i])== tolower(two[i]))
         {
             equals=0;
         }
